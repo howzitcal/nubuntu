@@ -1,7 +1,7 @@
-# Welcome to Nubuntu
+# Welcome to nubuntu
 
 
-**Nubuntu** is an easy way to debloat and customize your Vanilla Ubuntu Distro with one script. This project aims to make setting up an Ubuntu distro quick and painless, automating the boring tasks so that you can get back to being _productive!_
+**nubuntu** is an easy way to debloat and customize your Vanilla Ubuntu Distro with one script. This project aims to make setting up an Ubuntu distro quick and painless, automating the boring tasks so that you can get back to being _productive!_
 
 
 ## Features
@@ -16,24 +16,23 @@
 ## Notes
 - The idea is to install as many APT packages as possible and only use flatpak when it's necessary
 - Help wanted, if you see ways to make this better, please submit a PR
-- I want to see if you have used this script, please tweet photos at [x.com/calobyte](https://x.com/calobyte)
 
 ## Current Supported Versions of Ubuntu
 - 24.04
 
-## Before Nubuntu
+## Before nubuntu
 | Desktop | Menu |
 |:---|:---|
-|![image of vanilla desktop](https://raw.githubusercontent.com/calobyte/nubuntu/refs/heads/main/images/before-desktop.png)|![image of vanilla menu](https://raw.githubusercontent.com/calobyte/nubuntu/refs/heads/main/images/before-gnome-menu.png)|
+|![image of vanilla desktop](https://raw.githubusercontent.com/howzitcal/nubuntu/refs/heads/main/images/before-desktop.png)|![image of vanilla menu](https://raw.githubusercontent.com/howzitcal/nubuntu/refs/heads/main/images/before-gnome-menu.png)|
 
-## After Nubuntu
+## After nubuntu
 | Desktop | Menu |
 |:---|:---|
-|![image of vanilla desktop](https://raw.githubusercontent.com/calobyte/nubuntu/refs/heads/main/images/after-desktop.png)|![image of vanilla menu](https://raw.githubusercontent.com/calobyte/nubuntu/refs/heads/main/images/after-gnome-menu.png)|
+|![image of vanilla desktop](https://raw.githubusercontent.com/howzitcal/nubuntu/refs/heads/main/images/after-desktop.png)|![image of vanilla menu](https://raw.githubusercontent.com/howzitcal/nubuntu/refs/heads/main/images/after-gnome-menu.png)|
 
 ## Ubuntu 24.04 Example:
 ```bash
-curl -o- https://raw.githubusercontent.com/calobyte/nubuntu/refs/heads/main/24.04.sh | bash -s -- \
+curl -o- https://raw.githubusercontent.com/howzitcal/nubuntu/refs/heads/main/24.04.sh | bash -s -- \
     --debs "vscode,chrome,docker,dbeaver" \
     --flatpaks "com.bitwarden.desktop" \
     --debloat "yes" \
@@ -44,7 +43,7 @@ curl -o- https://raw.githubusercontent.com/calobyte/nubuntu/refs/heads/main/24.0
 
 ## Command Structure (Add your own arguments)
 ```bash
-curl -o- https://raw.githubusercontent.com/calobyte/nubuntu/refs/heads/main/24.04.sh | bash -s -- \
+curl -o- https://raw.githubusercontent.com/howzitcal/nubuntu/refs/heads/main/24.04.sh | bash -s -- \
     --debs "[package,...]" \
     --flatpaks "[com.package, ...]" \
     --debloat "[yes/no]" \
