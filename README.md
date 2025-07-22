@@ -33,7 +33,7 @@
 
 ## Ubuntu 24.04 Example:
 ```bash
-curl -o- https://raw.githubusercontent.com/calobyte/Nubuntu/refs/heads/main/24.04.sh | bash -s -- \
+curl -o- https://raw.githubusercontent.com/calobyte/nubuntu/refs/heads/main/24.04.sh | bash -s -- \
     --debs "vscode,chrome,docker,dbeaver" \
     --flatpaks "com.bitwarden.desktop" \
     --debloat "yes" \
@@ -44,7 +44,7 @@ curl -o- https://raw.githubusercontent.com/calobyte/Nubuntu/refs/heads/main/24.0
 
 ## Command Structure (Add your own arguments)
 ```bash
-curl -o- https://raw.githubusercontent.com/calobyte/Nubuntu/refs/heads/main/24.04.sh | bash -s -- \
+curl -o- https://raw.githubusercontent.com/calobyte/nubuntu/refs/heads/main/24.04.sh | bash -s -- \
     --debs "[package,...]" \
     --flatpaks "[com.package, ...]" \
     --debloat "[yes/no]" \
